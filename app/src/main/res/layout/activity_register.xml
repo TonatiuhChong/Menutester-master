@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/Foto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:src="@mipmap/camara_registro" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RegistroEmail"/>
+
+    <EditText
+        android:id="@+id/REmail"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RegistroUsuario"/>
+    <EditText
+        android:id="@+id/Rusuario"
+        android:hint="Escribe tu nombre de usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/RefPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RegistroPassword" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe tu contraseña"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/RefPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RegistroPassword" />
+
+    <EditText
+        android:id="@+id/Password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe nuevamente tu contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarme"/>
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ya tienes cuenta? Inicia sesión"/>
+
+
+</LinearLayout>

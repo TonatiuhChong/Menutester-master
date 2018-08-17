@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/Ayuda"
+        android:orderInCategory="100"
+        android:title="@string/Ayuda"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Comentarios"
+        android:orderInCategory="100"
+        android:title="@string/Comentarios"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/CerrarSesion"
+        android:orderInCategory="100"
+        android:title="@string/CerrarSesión"
+        app:showAsAction="never" />
+
+
+
+</menu>

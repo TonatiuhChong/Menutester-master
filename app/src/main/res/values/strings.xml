@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Menutester</string>
+    <string name="title_activity_main">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="NOTLOGIN">No se inició sesión</string>
+    <string name="NOCERRO">No se logro cerrar la sesión.</string>
+    <string name="Ayuda">Ayuda</string>
+    <string name="Comentarios">Enviar comentarios</string>
+    <string name="CerrarSesión">Cerrar sesión</string>
+    <string name="RegistroEmail">Escribe tu email</string>
+    <string name="RegistroPassword">Escribe tu contraseña (?)</string>
+    <string name="RegistroUsuario">Escribe tu nombre de usuario</string>
+</resources>
